@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+li:hover #icon,
+h1 {
+    transition: fill 100ms ease-in-out;
+    fill: #222a5f;
+    /* Change this to the desired hover color */
+}
+
+.rotate-15 {
+    transform: rotate(-45deg);
+}
+
+.rotate-15 h1 {
+    transform: rotate(45deg);
+}
